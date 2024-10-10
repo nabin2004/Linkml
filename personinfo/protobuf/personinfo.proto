@@ -1,0 +1,15 @@
+ syntax="proto3";
+ package
+// metamodel_version: 1.7.0
+message Container
+ {
+ repeated  person persons = 0
+ }
+message Person
+ {
+  string id = 0
+  string fullName = 0
+ repeated  string aliases = 0
+  string phone = 0
+  integer age = 0
+ }

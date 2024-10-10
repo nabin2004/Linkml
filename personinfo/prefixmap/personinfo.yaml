@@ -1,0 +1,9 @@
+{
+   "ORCID": "https://orcid.org/",
+   "linkml": "https://w3id.org/linkml/",
+   "personinfo": "https://w3id.org/linkml/examples/personinfo/",
+   "schema": "http://schema.org/",
+   "Person": {
+      "@id": "schema:Person"
+   }
+}

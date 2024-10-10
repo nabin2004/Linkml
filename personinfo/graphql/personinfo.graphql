@@ -1,0 +1,15 @@
+# metamodel_version: 1.7.0
+type Container
+  {
+    persons: [Person]
+  }
+
+type Person
+  {
+    id: String!
+    fullName: String!
+    aliases: [String]
+    phone: String
+    age: Integer
+  }
+

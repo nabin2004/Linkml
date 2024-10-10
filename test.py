@@ -1,4 +1,5 @@
-from personinfo import Person
+from personinfo import Person, PersonStatus
 
-p1 = Person(id='ORCID:9876', full_name='Lex Luthor')
-print(p1)
+person = Person(id='P1', full_name='Julius Caesar', status="DEAD")
+print(f'STATUS={person.status}')
+print(f'MEANING={person.status.meaning}')
